@@ -13,24 +13,11 @@
         android:layout_height="99dp"
         android:orientation="vertical" android:layout_weight="0.67">
 
-
-
         <TextView
-            android:id="@+id/txtSolution"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.50"
-            android:gravity="right"
-            android:paddingRight="10sp"
-            android:paddingTop="5sp"
-            android:textSize="15pt"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
-
-
-
-
-        <TextView
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="12sp"
+            android:autoSizeMaxTextSize="40sp"
+            android:autoSizeStepGranularity="2sp"
             android:id="@+id/txtInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +25,7 @@
             android:gravity="right"
             android:paddingRight="10sp"
             android:paddingTop="5sp"
-            android:textSize="15pt"
+
             android:textColor="@color/white"
             android:textStyle="bold" />
 
