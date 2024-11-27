@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
 
-                display.setText(expression.isEmpty() ? "0.0" : expression);
+                display.setText(expression.isEmpty() ? "0" : expression);
             }
         });
     }

@@ -14,17 +14,17 @@
         android:orientation="vertical" android:layout_weight="0.67">
 
         <TextView
-            android:autoSizeTextType="uniform"
-            android:autoSizeMinTextSize="12sp"
-            android:autoSizeMaxTextSize="40sp"
-            android:autoSizeStepGranularity="2sp"
             android:id="@+id/txtInput"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="339dp"
             android:layout_weight="0.50"
+            android:autoSizeMaxTextSize="40sp"
+            android:autoSizeMinTextSize="12sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
             android:gravity="right"
-            android:paddingRight="10sp"
             android:paddingTop="5sp"
+            android:paddingRight="10sp"
 
             android:textColor="@color/white"
             android:textStyle="bold" />
